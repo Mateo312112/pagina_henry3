@@ -90,6 +90,7 @@ h1 {
 }
 
 .parrafo2_section2 {
+    
     font-weight: 100;
     font-size: 23px;
 }
@@ -143,15 +144,35 @@ h1 {
     height: 50px;
     width: 190px;
 }
-.pagina4{
+
+.pagina4 {
     display: flex;
     background-color: #ff8f47;
     align-content: center;
     align-items: center;
     justify-content: space-evenly;
+    flex-direction: column;
     height: 400px;
 }
-.lista_section4{
-    justify-content: space-evenly;
+
+.pagina4 ul {
     list-style: none;
+    flex-direction: column;
+
+}
+
+.lista_section4 {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    gap: 200px;
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: white;
+    background-color: #ff8f47;
+    box-shadow: 0 -5px 10px #ff833b;
 }
