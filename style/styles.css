@@ -24,7 +24,7 @@ h1 {
 .boton_header {
     font-size: 17px;
     border: none;
-    background-color: #ff8f47;
+    background: linear-gradient(to right, #ff9d52,  #fd863d);
     color: white;
     margin-top: 150px;
     border-radius: 25px;
@@ -51,7 +51,9 @@ h1 {
 
 .titulo_setion2 {
     font-size: 40px;
-    color: #ff8f47;
+    background: linear-gradient(to right, #ff9d52,  #fd863d);
+    background-clip: text;
+    color: transparent;
     font-weight: 100;
 }
 
@@ -63,7 +65,7 @@ h1 {
 .boton_section2 {
     font-size: 17px;
     border: none;
-    background-color: #ff8f47;
+    background: linear-gradient(to right, #ff9d52,  #fd863d);
     color: white;
     margin-top: 40px;
     border-radius: 25px;
@@ -85,7 +87,9 @@ h1 {
 
 .titulo2_section2 {
     font-size: 40px;
-    color: #ff8f47;
+    background: linear-gradient(to right, #ff9d52,  #fd863d);
+    background-clip: text;
+    color: transparent;
     font-weight: 100;
 }
 
@@ -98,7 +102,7 @@ h1 {
 .boton2_section2 {
     font-size: 17px;
     border: none;
-    background-color: #ff8f47;
+    background: linear-gradient(to right, #ff9d52,  #fd863d);
     color: white;
     margin-top: 40px;
     border-radius: 25px;
@@ -123,8 +127,10 @@ h1 {
 }
 
 .titulo_section3 {
+    background: linear-gradient(to right, #ff9d52,  #fd863d);
+    background-clip: text;
+    color: transparent;
     font-size: 40px;
-    color: #ff8f47;
     font-weight: bold;
 }
 
@@ -137,7 +143,7 @@ h1 {
 .boton_section3 {
     font-size: 17px;
     border: none;
-    background-color: #ff8f47;
+    background: linear-gradient(to right, #ff9d52,  #fd863d);
     color: white;
     margin-top: 10px;
     border-radius: 25px;
@@ -147,7 +153,7 @@ h1 {
 
 .pagina4 {
     display: flex;
-    background-color: #ff8f47;
+    background: linear-gradient(to right, #ff9d52,  #fd863d);
     align-content: center;
     align-items: center;
     justify-content: space-evenly;
@@ -158,7 +164,6 @@ h1 {
 .pagina4 ul {
     list-style: none;
     flex-direction: column;
-
 }
 
 .lista_section4 {
@@ -173,6 +178,6 @@ footer{
     justify-content: center;
     padding: 30px;
     color: white;
-    background-color: #ff8f47;
+    background: linear-gradient(to right, #ff9d52,  #fd863d);
     box-shadow: 0 -5px 10px #ff833b;
 }
