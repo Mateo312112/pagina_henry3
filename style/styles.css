@@ -4,6 +4,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -24,7 +25,7 @@ h1 {
 .boton_header {
     font-size: 17px;
     border: none;
-    background: linear-gradient(to right, #ff9d52,  #fd863d);
+    background: linear-gradient(to right, #ff9d52, #fd863d);
     color: white;
     margin-top: 150px;
     border-radius: 25px;
@@ -51,7 +52,7 @@ h1 {
 
 .titulo_setion2 {
     font-size: 40px;
-    background: linear-gradient(to right, #ff9d52,  #fd863d);
+    background: linear-gradient(to right, #ff9d52, #fd863d);
     background-clip: text;
     color: transparent;
     font-weight: 100;
@@ -65,7 +66,7 @@ h1 {
 .boton_section2 {
     font-size: 17px;
     border: none;
-    background: linear-gradient(to right, #ff9d52,  #fd863d);
+    background: linear-gradient(to right, #ff9d52, #fd863d);
     color: white;
     margin-top: 40px;
     border-radius: 25px;
@@ -87,14 +88,14 @@ h1 {
 
 .titulo2_section2 {
     font-size: 40px;
-    background: linear-gradient(to right, #ff9d52,  #fd863d);
+    background: linear-gradient(to right, #ff9d52, #fd863d);
     background-clip: text;
     color: transparent;
     font-weight: 100;
 }
 
 .parrafo2_section2 {
-    
+
     font-weight: 100;
     font-size: 23px;
 }
@@ -102,7 +103,7 @@ h1 {
 .boton2_section2 {
     font-size: 17px;
     border: none;
-    background: linear-gradient(to right, #ff9d52,  #fd863d);
+    background: linear-gradient(to right, #ff9d52, #fd863d);
     color: white;
     margin-top: 40px;
     border-radius: 25px;
@@ -127,7 +128,7 @@ h1 {
 }
 
 .titulo_section3 {
-    background: linear-gradient(to right, #ff9d52,  #fd863d);
+    background: linear-gradient(to right, #ff9d52, #fd863d);
     background-clip: text;
     color: transparent;
     font-size: 40px;
@@ -143,7 +144,7 @@ h1 {
 .boton_section3 {
     font-size: 17px;
     border: none;
-    background: linear-gradient(to right, #ff9d52,  #fd863d);
+    background: linear-gradient(to right, #ff9d52, #fd863d);
     color: white;
     margin-top: 10px;
     border-radius: 25px;
@@ -153,7 +154,7 @@ h1 {
 
 .pagina4 {
     display: flex;
-    background: linear-gradient(to right, #ff9d52,  #fd863d);
+    background: linear-gradient(to right, #ff9d52, #fd863d);
     align-content: center;
     align-items: center;
     justify-content: space-evenly;
@@ -173,11 +174,208 @@ h1 {
     gap: 200px;
     font-size: 20px;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: center;
     padding: 30px;
     color: white;
-    background: linear-gradient(to right, #ff9d52,  #fd863d);
+    background: linear-gradient(to right, #ff9d52, #fd863d);
     box-shadow: 0 -5px 10px #ff833b;
+}
+
+@media (max-width: 1279px) {
+    body {
+        width: 1300px;
+    }
+
+    .Pagina3 {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 800px;
+
+    }
+
+    .texto_section3 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+
+    }
+
+    .lista_section4 {
+        margin-right: 60px;
+    }
+}
+
+@media(max-width: 920px) {
+    body {
+        width: 770px;
+    }
+
+    .pagina2 {
+        height: 750px;
+    }
+
+    h1 {
+        margin-top: 213px;
+        font-size: 70px;
+    }
+
+    .titulo2_header {
+        font-size: 33px;
+    }
+
+    .titulo_setion2 {
+        font-size: 27px;
+
+    }
+
+    img {
+        height: 400px;
+    }
+
+    .parrafo_section2 {
+        font-size: 14px;
+    }
+
+    .boton2_section2 {
+        font-size: 14px;
+        height: 41px;
+        width: 108px;
+
+    }
+
+    .titulo2_section2 {
+        font-size: 29px;
+    }
+
+    .parrafo2_section2 {
+        font-weight: 100;
+        font-size: 15px;
+    }
+
+    .boton2_section2 {
+        font-size: 14px;
+        height: 41px;
+        width: 105px;
+    }
+
+    .Pagina3 {
+        height: 416px;
+    }
+
+    .titulo_section3 {
+        font-size: 23px;
+    }
+
+    .parrafo_section3 {
+        font-size: 14px;
+    }
+
+    .boton_section3 {
+        font-size: 14px;
+        height: 40px;
+        width: 157px;
+    }
+
+    .lista_section4 {
+        gap: 60px;
+        font-size: 17px;
+    }
+}
+
+@media(max-width: 768px) {
+    body {
+        width: 500px;
+    }
+
+    .pagina2 {
+        height: 720px;
+    }
+
+    header {
+        height: 500px;
+
+    }
+
+    h1 {
+        margin-top: 120px;
+        font-size: 44px;
+    }
+
+    .titulo2_header {
+        font-size: 20px;
+        margin-top: -32px;
+    }
+
+    .boton_header {
+        font-size: 13px;
+        margin-top: 80px;
+        height: 36px;
+        width: 94px;
+    }
+
+    .pagina2 {
+        margin-top: -50px;
+        width: 100%;
+    }
+
+    .titulo_setion2 {
+        font-size: 17px;
+    }
+
+    .parrafo_section2 {
+        font-size: 14px;
+    }
+
+    .boton2_section2 {
+        margin-top: 10px;
+        font-size: 12px;
+        height: 32px;
+        width: 71px;
+    }
+        img {
+            margin-right: 40px;
+        height: 260px;
+    }
+    .titulo2_section2 {
+        font-size: 17px;
+    }
+
+    .parrafo2_section2 {
+        font-size: 14px;
+    }
+
+    .boton2_section2 {
+        font-size: 12px;
+        height: 32px;
+        width: 71px;
+    }
+
+    .Pagina3 {
+        margin-top: 100px;
+        height: 416px;
+    }
+
+    .titulo_section3 {
+        font-size: 23px;
+    }
+
+    .parrafo_section3 {
+        font-size: 14px;
+    }
+
+    .boton_section3 {
+        font-size: 14px;
+        height: 40px;
+        width: 157px;
+    }
+
+    .lista_section4 {
+        gap: 60px;
+        font-size: 17px;
+    }
+
 }
