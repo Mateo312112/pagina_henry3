@@ -292,7 +292,7 @@ footer {
     }
 
     .pagina2 {
-        height: 720px;
+        height: 520px;
     }
 
     header {
@@ -336,16 +336,19 @@ footer {
         height: 32px;
         width: 71px;
     }
-        img {
-            margin-right: 40px;
+
+    img {
+        margin-right: 40px;
         height: 260px;
     }
+
     .titulo2_section2 {
         font-size: 17px;
     }
 
     .parrafo2_section2 {
         font-size: 14px;
+        margin-right: 50PX;
     }
 
     .boton2_section2 {
@@ -356,26 +359,167 @@ footer {
 
     .Pagina3 {
         margin-top: 100px;
-        height: 416px;
+        height: 334px;
     }
 
     .titulo_section3 {
         font-size: 23px;
+        margin-left: -70px;
+
     }
 
     .parrafo_section3 {
         font-size: 14px;
+        margin-left: -70px;
+        margin-right: 165px;
     }
 
     .boton_section3 {
         font-size: 14px;
         height: 40px;
         width: 157px;
+        margin-left: -70px;
+
     }
 
     .lista_section4 {
         gap: 60px;
         font-size: 17px;
     }
+
+
+    .pagina4 {
+        height: 250px;
+    }
+
+    .lista_section4 {
+        gap: 16px;
+        font-size: 16px;
+    }
+
+    @media (max-width: 480px) {
+        body {
+            width: 395px;
+        }
+
+
+        .pagina2 {
+            height: 520px;
+        }
+
+        header {
+            height: 360px;
+
+        }
+
+        h1 {
+            margin-top: 99px;
+            font-size: 35px;
+        }
+
+        .titulo2_header {
+            font-size: 20px;
+            margin-top: -29px;
+        }
+
+        .boton_header {
+            font-size: 13px;
+            margin-top: 25px;
+            height: 26px;
+            width: 84px;
+        }
+
+        .pagina2 {
+            margin-top: -50px;
+            width: 100%;
+        }
+
+        .titulo_setion2 {
+            font-size: 17px;
+        }
+
+        .parrafo_section2 {
+            font-size: 14px;
+            margin-right: 20px;
+        }
+
+        .boton2_section2 {
+            margin-top: 10px;
+            font-size: 12px;
+            height: 32px;
+            width: 71px;
+        }
+
+        img {
+            margin-right: 10px;
+            height: 200px;
+        }
+
+        .titulo2_section2 {
+            font-size: 16px;
+        }
+
+        .texto2_Section2 {
+            margin-left: 30px;
+
+        }
+
+        .parrafo2_section2 {
+            font-size: 14px;
+            margin-right: 20px;
+            margin-right: -10PX;
+        }
+
+        .boton2_section2 {
+            font-size: 12px;
+            height: 32px;
+            width: 71px;
+        }
+
+        .Pagina3 {
+            margin-top: 100px;
+            height: 320px;
+        }
+
+        .titulo_section3 {
+            font-size: 17px;
+            margin-left: -84px;
+
+        }
+
+        .parrafo_section3 {
+            font-size: 14px;
+            margin-left: -84px;
+            margin-right: 96px;
+        }
+
+        .boton_section3 {
+            font-size: 14px;
+            height: 30px;
+            width: 147px;
+            margin-left: -84px;
+            margin-top: -3px;
+
+        }
+
+        .lista_section4 {
+            gap: 60px;
+            font-size: 17px;
+        }
+
+
+        .pagina4 {
+            height: 180px;
+        }
+
+        .lista_section4 {
+            gap: 1px;
+            font-size: 13px;
+        }
+    }
+
+
+
+
 
 }
